@@ -185,6 +185,7 @@ body {
   from { opacity: 0; }
   to { opacity: 1; }
 }
+
 footer {
   text-align: center;
   color: #cfd8dc;
