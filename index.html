@@ -54,6 +54,16 @@
         </div>
 
     </div>
+    <footer>
+  <p>Weather data by <a href="https://openweathermap.org/" target="_blank" rel="noopener">OpenWeatherMap</a></p>
+  <div class="footer-socials">
+    <a href="https://github.com/Ceeddy" target="_blank" rel="noopener" title="GitHub"><i class="fa-brands fa-github"></i></a>
+    <a href="https://x.com/ceeddy492" target="_blank" rel="noopener" title="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+    <a href="#" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+  </div>
+  <p>© <span id="year"></span> SkyVue Weather</p>
+</footer>
+
     <script>
 
         const apikey = "83e3e44ea7728109cfb6159d39972851";
@@ -106,5 +116,9 @@
 
 
     </script>
+    <script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
 </body>
 </html>
